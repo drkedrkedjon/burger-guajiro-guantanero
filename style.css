@@ -21,7 +21,7 @@ header {
   color: #fff;
   display: flex;
   align-items: center;
-  background-image: url(/images/header.png);
+  background-image: url(images/header.png);
   padding-block: 20px;
   background-repeat: no-repeat;
   background-size: cover;
