@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #E5E7EB;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+header {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-image: url(/images/header.png);
+  padding-block: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+header > div {
+  margin-inline: 30px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px 30px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  padding-block: 10px;
+  border-bottom: 1px solid #999;
+}
+.emoji {
+  font-size: 3.5rem;
+  margin-right: 10px;
+}
+.precio {
+  font-weight: 900;
+  margin-top: 5px;
+}
+.add-btn {
+  margin-left: auto;
+  font-size: 1rem;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #999;
+}
