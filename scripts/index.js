@@ -8,8 +8,6 @@ function getProductosHTML(data) {
     product.ingredients.forEach( ingr => {
       ingedientesHTML += `${ingr}, `
     })
-
-
     html += `
       <div class="product">
         <p class="emoji">${product.emoji}</p>
