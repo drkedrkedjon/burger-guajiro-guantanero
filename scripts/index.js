@@ -23,7 +23,7 @@ function agregarProducto(uuidProducto) {
 function getProductosHTML(data) {
   let html = ''
   data.forEach(product => {
-    let ingedientesHTML = 'Sasa'
+    let ingedientesHTML = ''
     product.ingredients.forEach( ingr => {
       ingedientesHTML += `${ingr}, `
     })
