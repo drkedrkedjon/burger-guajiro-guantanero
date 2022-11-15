@@ -8,8 +8,8 @@ img {
 }
 
 body {
-  background-color: #E5E7EB;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #e5e7eb;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .container {
@@ -65,7 +65,7 @@ main {
   transition: background-color 250ms;
 }
 .add-btn:hover {
-  background-color: #16DB99;
+  background-color: #16db99;
 }
 
 /* Ticket styles */
@@ -89,12 +89,12 @@ main {
   margin-inline-start: auto;
 }
 .btn-quitar {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   border: none;
   padding-inline: 10px;
   color: red;
   cursor: pointer;
-} 
+}
 .totales {
   border-block-start: 2px solid #555;
   padding-top: 10px;
@@ -110,7 +110,7 @@ main {
   color: #777;
 }
 .btn-pedido {
-  background-color: #16DB99;
+  background-color: #16db99;
   width: 100%;
   border: none;
   padding: 1rem;
@@ -122,5 +122,40 @@ main {
   transition: box-shadow 250ms;
 }
 .btn-pedido:hover {
-  box-shadow: 1px 9px 39px -14px rgba(26,46,15,0.75);
+  box-shadow: 1px 9px 39px -14px rgba(26, 46, 15, 0.75);
+}
+
+/* dialogo modal */
+
+.dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: 350px;
+  border: none;
+  padding: 30px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.dialog::backdrop {
+  position: fixed;
+  inset: 0;
+  background: #0007;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.dialog > input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: inherit;
+  border-radius: 5px;
+}
+.pago-exito-mensaje {
+  text-align: center;
+  background-color: #baeddb;
+  padding: 30px 10px;
+  border-radius: 10px;
 }
